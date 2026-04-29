@@ -5,6 +5,8 @@ This script creates comprehensive visualizations for the case study
 
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.patches import Rectangle

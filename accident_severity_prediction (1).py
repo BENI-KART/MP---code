@@ -2,12 +2,12 @@
 Machine Learning Based Road Accident Severity Prediction System
 Complete Implementation Example
 
-This script demonstrates the complete pipeline for building an accident severity
-prediction model using various machine learning algorithms.
 """
 
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
